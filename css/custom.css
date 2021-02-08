@@ -1,0 +1,222 @@
+/* CSS Document */
+
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
+
+/* Font import */
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://cdn.jsdelivr.net/darfonts/0.1/tv-tha-tye-wide/stylesheet.css);
+body { overflow-x: hidden !important;}
+
+
+.container {
+     padding-right: 0; /*15px in bootstrap.css*/
+     padding-left: 0;  /*idem*/
+     margin-right: auto;
+     margin-left: auto;
+}
+/*body syles*/
+body, p{
+	font-family: 'Droid Arabic Kufi', serif;
+	text-align:center;
+	position:relative;
+	direction: rtl;
+}
+h1, h2, h3, h4, h5, h6{
+font-family:ge_ss_tvbold;	
+}
+.buffer {
+	 padding-top:20px;
+	 padding-bottom:20px;
+}
+.row{
+	padding-bottom:20px;
+}
+/*Carousell syles and menu*/
+.featured{
+margin:0;
+padding:0;
+overflow: hidden ;
+}
+.featured .item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.navbar-default{
+background:none;
+border:0;
+color:#FFFFFF;
+height:75px;
+background-color:transparent;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#FFFFFF;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:#5c2849;
+	background-color:transparent;
+
+}
+.navbar-default .navbar-nav > li.active a{
+	color:#FFFFFF;
+	background-color:transparent;
+}
+.navbar-default .navbar-nav > li.active  a:hover{
+	color:#5c2849;
+	background-color:transparent;
+}
+
+/*** First row ***/
+img.serv{
+	height:150px;
+	display:block;
+	margin: 0 auto 0;
+}
+div.first{
+	padding: 60px 0;
+	text-align:center;
+
+}
+div.first div.fad {
+/*	border: 1px dashed #DCDCDC;*/
+	border-radius:3px;
+	padding:20px;
+}
+
+/*** second row ***/
+div.second > div > div > div {
+	position:relative;
+}
+div.second {
+	padding: 90px 0;
+	
+}
+div.second .glyphicon {
+	position:absolute;
+	font-size:1.2em;
+	margin-right:-25px;
+	margin-top: 2px;
+}
+
+div.second, div.second p{
+	background-color:#CFCFCF;
+	color:#444;
+	text-align:right;
+}
+@media(max-device-width:480px){
+	div.second > div > div {
+		padding-right: 10px;
+		
+	}
+	
+}
+div.second div.selected{
+	color: #111;
+}
+#art1, #art2, #art3{
+	cursor: pointer;
+}
+div.second img {
+	margin:auto;
+	display:block;
+}
+
+/*** Third row ***/
+
+div.third {
+	background-color:#333333;
+}
+
+div.third h2{
+	color:#FFFFFF;
+}
+
+/*** Third row ***/
+
+div.forth{
+	text-align:center;
+}
+
+/*** footer row ***/
+.inbody{
+	height:50px;
+	background-color:rgba(0,0,0,.8);
+	transition: all 0.4s ease;
+}
+.inbody img{
+width:120px;
+margin:0;
+transition:ease-in 0.4s;
+
+}
+
+footer{
+	background-image:url(../img/BG.jpg);
+	text-align:right;
+	color:#FFFFFF;
+	padding-top:30px;
+	direction:ltr;
+}
+
+footer div.square{
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,.50);
+	background-color:rgba(255,255,255,.1);
+    padding: 20px;
+	margin-top:30px;
+}
+
+
+.thumbnail{
+    position:relative;
+
+}
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(255,71,236,.60);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+div.thumbnail.well{
+	background-color:transparent;
+	border:none;
+}
+
+.label {
+    text-shadow: 2px 2px 2px #ccc;
+    display: block;
+    float: right;
+    margin-left:4px;
+    text-align: right;
+    line-height: 22px;
+    }
+
+.contactHeader{
+	background-image:url(../img/538065.jpg);
+	height:300px;
+}
+
+.contactHeader .container{
+	padding-top: 100px;
+	color: #FFFFFF;
+}
+.spacing{
+	margin-bottom:50px;
+}
+.shout {
+padding: 60px 0;
+margin: 60px 0 0;
+background: #EBEBEB;
+	
+}
